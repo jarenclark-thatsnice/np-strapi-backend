@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_details_chapters",
+  "info": {
+    "name": "Chapter",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Timestamp": {
+      "type": "integer"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
